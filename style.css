@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS';
+    background-color: rgb(253, 255, 185);
+}
+#logo{
+    height: 80px;
+    margin-right: 10%;
+}
+header{
+    padding: 1%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+header h1{
+    color: white;
+    margin-right: 10%;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5%;
+}
+nav{
+    margin-left: auto;
+}
+#nav:hover{
+    color: orange;
+}
+section{
+    border: 2px solid gray;
+    margin: 2%;
+    background-color: white;
+    padding: 2%;
+    box-shadow: 5px 5px 5px gray;
+}
+#h1about{
+    text-align: center;
+}
+#course{
+    text-align: center;
+}
+table{
+    background-color: white;
+    border: solid gray;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 8px;
+    padding: 5%;
+    margin: auto;
+}
+#crim{
+    background-color: white;
+    border: solid gray;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 8px;
+    padding: 10px;
+    background-image: url(https://www.ledequipped.com/wp-content/uploads/2022/03/psychology-red-blue-police-lights.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#it{
+    background-color: white;
+    border: solid gray;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 8px;
+    padding: 10px;
+    background-image: url(https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/07/computer-coding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#ed{
+    background-color: white;
+    border: solid gray;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 8px;
+    padding: 10px;
+    background-image: url(https://wpvip.edutopia.org/wp-content/uploads/2022/10/BNGANR.jpg?w=2880&quality=85);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+button{
+    background-color: blue;
+    border: gray 2px;
+    border-radius: 5px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+button:hover{color: yellow;}
+td{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    padding-bottom: 5px;
+}
+hr{
+    margin: 1%;
+}
+#icon{
+    height: 20px;
+}
+label a{
+    text-decoration: none;
+    color: black;
+}
+label a:hover{
+    color: blue;
+}
+footer{
+    text-align: center;
+    margin: 2%;
+}
