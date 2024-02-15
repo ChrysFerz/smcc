@@ -12,6 +12,7 @@ header{
     background-color: blue;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 header h1{
     color: white;
@@ -20,10 +21,12 @@ header h1{
 header a{
     color: white;
     text-decoration: none;
-    margin-right: 5%;
+    margin-right: 10px;
 }
 nav{
     margin-left: auto;
+    text-align: right;
+    margin-right: 50px;
 }
 #nav:hover{
     color: orange;
