@@ -122,3 +122,51 @@ footer{
     text-align: center;
     margin: 2%;
 }
+  @media screen and (max-width: 600px) {
+            header {
+                text-align: center;
+            }
+
+            #logo {
+                width: 80px;
+            }
+
+            h1 {
+                font-size: 24px;
+                margin: 5px 0;
+            }
+
+            nav {
+                margin-top: 5px;
+                overflow: auto;
+            }
+
+            #nav {
+                display: block;
+                float: none;
+                margin: 0;
+                text-align: center;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            article {
+                margin-bottom: 10px;
+            }
+
+            footer {
+                text-align: center;
+                padding: 10px;
+            }
+
+            /* Adjust specific styles for smaller screens */
+            #h1about {
+                font-size: 20px;
+            }
+
+            #ctable {
+                width: 100%;
+            }
+        }
